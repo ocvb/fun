@@ -23,24 +23,24 @@ nav ul li {
 }
 
 nav a {
-    color: rgb(95, 95, 95);
+    color: rgb(112, 112, 112);
     text-decoration: none;
 }
 
 nav a:hover {
-    animation: fadeOpq 0.22s normal forwards;
+    animation: fadeOpq 0.27s normal forwards;
     text-decoration: underline;
     /*animation: fadeOpq 0.4s infinite alternate ease-in-out;
     animation-iteration-count: 1;*/
 }
 
 nav .navActive {
-    color: rgb(212, 209, 11);
+    color: rgb(193, 200, 223);
 }
 
 @keyframes fadeOpq {
     70%, 100% {
-        color: black;
+        color: rgb(206, 206, 206);
     }
 }
 
